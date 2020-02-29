@@ -4,7 +4,8 @@ public class CadastroAluno {
 	Nome nome;
 	Endereco endereco;
 	
-	CadastroAluno(Nome nome, Endereco endereco){
+	CadastroAluno(Nome nome, Endereco endereco)
+	{
 		this.nome = nome;
 		this.endereco = endereco;
 	}
