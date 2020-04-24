@@ -64,6 +64,7 @@ public class Animal {
 			System.out.println("O animal nao esta doente");
 			return;
 		}
+		this.isDoente = false;
 		System.out.println("O animal esta sendo curado");
 	}
 	
